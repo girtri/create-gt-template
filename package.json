@@ -1,0 +1,34 @@
+{
+	"name": "@girtri/create-gt-template",
+	"version": "1.0.0",
+	"description": "A CLI to bootstrap projects",
+	"main": "src/index.js",
+	"bin": {
+		"@girtri/create-gt-template": "bin/create-gt-template",
+		"create-gt-template": "bin/create-gt-template"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cli",
+		"create-gt-template"
+	],
+	"files": [
+		"bin/",
+		"src/",
+		"templates/"
+	],
+	"author": "girtri",
+	"license": "MIT",
+	"dependencies": {
+		"arg": "^5.0.0",
+		"chalk": "^4.1.2",
+		"esm": "^3.2.18",
+		"inquirer": "^8.1.2",
+		"ncp": "^2.0.0"
+	}
+}
